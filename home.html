@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html class="light" lang="th"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>V-CON Engineering &amp; Construction Co., Ltd.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=Manrope:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "inverse-surface": "#2f3034",
+                        "surface": "#f9f9fe",
+                        "on-background": "#1a1c1f",
+                        "on-tertiary-fixed": "#341100",
+                        "surface-dim": "#dad9de",
+                        "on-secondary-container": "#603100",
+                        "outline-variant": "#c3c6d1",
+                        "secondary-fixed-dim": "#ffb77d",
+                        "error": "#ba1a1a",
+                        "inverse-primary": "#a7c8ff",
+                        "on-surface-variant": "#43474f",
+                        "secondary-fixed": "#ffdcc3",
+                        "on-surface": "#1a1c1f",
+                        "surface-tint": "#3a5f94",
+                        "primary-container": "#003366",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#723610",
+                        "on-primary-container": "#799dd6",
+                        "tertiary-container": "#592300",
+                        "on-primary-fixed-variant": "#1f477b",
+                        "inverse-on-surface": "#f1f0f5",
+                        "primary-fixed-dim": "#a7c8ff",
+                        "surface-container-high": "#e8e8ed",
+                        "on-primary-fixed": "#001b3c",
+                        "surface-bright": "#f9f9fe",
+                        "error-container": "#ffdad6",
+                        "background": "#f9f9fe",
+                        "surface-container": "#eeedf2",
+                        "secondary-container": "#fd8b00",
+                        "on-secondary-fixed": "#2f1500",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary": "#904d00",
+                        "on-secondary-fixed-variant": "#6e3900",
+                        "outline": "#737780",
+                        "tertiary-fixed-dim": "#ffb690",
+                        "surface-container-highest": "#e2e2e7",
+                        "surface-container-low": "#f4f3f8",
+                        "on-tertiary-container": "#d8885c",
+                        "primary-fixed": "#d5e3ff",
+                        "surface-variant": "#e2e2e7",
+                        "primary": "#001e40",
+                        "tertiary": "#381300",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#ffdbca",
+                        "on-primary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-lg": "32px",
+                        "stack-md": "16px",
+                        "stack-xs": "4px",
+                        "gutter": "24px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "margin": "32px",
+                        "stack-sm": "8px",
+                        "stack-xl": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Manrope", "sans-serif"],
+                        "body-md": ["Inter", "sans-serif"],
+                        "headline-md": ["Manrope", "sans-serif"],
+                        "body-lg": ["Inter", "sans-serif"],
+                        "headline-sm": ["Manrope", "sans-serif"],
+                        "label-sm": ["Inter", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "1.25", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "label-sm": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.02em", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.fill {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col">
+<!-- TopNavBar (Shared Component JSON) -->
+<header class="bg-white/95 backdrop-blur-md sticky full-width top-0 z-50 border-b border-slate-200 shadow-sm font-['Manrope'] antialiased">
+<div class="flex justify-between items-center h-20 px-8 max-w-[1440px] mx-auto w-full">
+<!-- Brand Logo -->
+<a class="text-xl font-bold tracking-tighter text-[#003366]" href="#">
+                V-CON Engineering
+            </a>
+<!-- Navigation Links -->
+<nav class="hidden md:flex gap-8 items-center h-full">
+<a class="text-[#003366] border-b-2 border-[#003366] pb-1 font-bold h-full flex items-center hover:text-[#003366] transition-colors duration-200 opacity-80" href="home.html">หน้าแรก</a>
+<a class="text-slate-600 font-medium h-full flex items-center hover:text-[#003366] transition-colors duration-200" href="about.html">เกี่ยวกับเรา</a>
+<a class="text-slate-600 font-medium h-full flex items-center hover:text-[#003366] transition-colors duration-200" href="services.html">บริการของเรา</a>
+<a class="text-slate-600 font-medium h-full flex items-center hover:text-[#003366] transition-colors duration-200" href="safety.html">ความปลอดภัย</a>
+<a class="text-slate-600 font-medium h-full flex items-center hover:text-[#003366] transition-colors duration-200" href="portfolio.html">ผลงาน</a>
+<a class="text-slate-600 font-medium h-full flex items-center hover:text-[#003366] transition-colors duration-200" href="contact.html">ติดต่อเรา</a>
+</nav>
+<!-- Trailing Action -->
+<button class="hidden md:flex items-center justify-center bg-secondary-container text-on-secondary-fixed font-label-sm px-6 py-3 rounded hover:bg-opacity-90 transition-all font-bold">
+                ขอใบเสนอราคา
+            </button>
+<!-- Mobile Menu Toggle (Placeholder) -->
+<button class="md:hidden text-[#003366] p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative w-full h-[600px] bg-primary flex items-center overflow-hidden">
+<!-- Background Image -->
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-30 mix-blend-overlay" data-alt="A wide angle shot of a massive, modern construction site at twilight. The scene is illuminated by powerful industrial floodlights cutting through the dusk. Steel girders form a complex geometric grid reaching into the sky, while cranes loom in the background. The mood is industrial, precise, and energetic, conveying a sense of monumental engineering progress. The color palette features deep navy blues from the evening sky contrasting sharply with vibrant orange and yellow construction lights, reflecting a corporate B2B aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzJDzw1Lqrj7iGa0jTyquCJL8O5wCXpxe39gJ6f7vy5iFGBsU8R_IswC-IvuUnTaS-DqTt3PYB1s64oclLSek0jHrpJpt5wbcrcVlegA9hLDiTDxy3-11bKkxAesErT8cFbThXgV1Gw5aJIcRhdmWtP4bZld5ImRrO_7kf7JGYnz0UdEkrKgRzRJo8wmjIruoS8VSal1CP_0sS4jY7670PmPVJvssyp3cg_sA5NgyZVQ-rMidgZEfpgfy_zIHcj0_LB1do1w1kYrm_"/>
+<!-- Gradient Overlay -->
+<div class="absolute inset-0 bg-gradient-to-r from-primary to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin w-full">
+<div class="max-w-2xl text-on-primary">
+<h1 class="font-headline-lg text-headline-lg mb-stack-md">V.C.C. สร้างสรรค์งานวิศวกรรม ก่อสร้าง และซ่อมบำรุง ด้วยมาตรฐานที่คุณวางใจ</h1>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim mb-stack-lg">มุ่งมั่นดำเนินงานด้วยความซื่อสัตย์ ตรงต่อเวลา และยึดมั่นในความปลอดภัยสูงสุด เพื่อความสำเร็จของทุกโครงการอุตสาหกรรม</p>
+<div class="flex flex-wrap gap-stack-md">
+<button class="bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm px-8 py-4 rounded font-bold hover:bg-opacity-90 transition-all flex items-center gap-2">
+                            ปรึกษาและประเมินราคาฟรี
+                            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+<!-- แก้ไขเป็นแบบนี้ -->
+<a href="portfolio.html" class="bg-transparent border border-outline-variant text-on-primary font-label-sm text-label-sm px-8 py-4 rounded hover:bg-white/10 transition-all inline-block text-center">
+    ดูผลงานของเรา
+</a>
+                    
+</div>
+</div>
+</div>
+</section>
+<!-- Metrics Section (Bento Grid Style) -->
+<section class="py-stack-xl bg-surface-container-low border-b border-surface-variant">
+<div class="max-w-container-max mx-auto px-margin">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="bg-surface-container-lowest p-stack-lg rounded-xl border border-surface-variant flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-stack-sm">calendar_month</span>
+<h3 class="font-headline-md text-headline-md text-primary-container">10+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">ปี แห่งประสบการณ์</p>
+</div>
+<div class="bg-surface-container-lowest p-stack-lg rounded-xl border border-surface-variant flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-stack-sm">engineering</span>
+<h3 class="font-headline-md text-headline-md text-primary-container">60+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">บุคลากรและช่างผู้ชำนาญการ</p>
+</div>
+<div class="bg-surface-container-lowest p-stack-lg rounded-xl border border-surface-variant flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-stack-sm">account_balance</span>
+<h3 class="font-headline-md text-headline-md text-primary-container">134M+</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">มูลค่าโครงการ</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Overview (Asymmetric Layout) -->
+<section class="py-stack-xl bg-surface">
+<div class="max-w-container-max mx-auto px-margin">
+<div class="mb-stack-lg">
+<h2 class="font-headline-md text-headline-md text-on-background mb-stack-xs">บริการหลักของเรา</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">ครอบคลุมงานวิศวกรรมก่อสร้างและระบบลอจิสติกส์อย่างครบวงจร เพื่อตอบสนองความต้องการของอุตสาหกรรมยุคใหม่</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Construction Service -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded border border-surface-variant overflow-hidden group">
+<div class="relative h-[400px] overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A highly detailed close-up of structural steel beams being welded by a professional engineer in an industrial setting. Bright blue and white sparks fly dynamically against a deep blue and grey background. The lighting is dramatic, highlighting the precision and strength of the construction work. The overall mood is robust, precise, and intensely focused, embodying a premium B2B engineering aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBY5wFpoYBoMxiOBom4TPpGN--fFKTaQ3bhgmW5F_ylVn1dJ73jHy8FM9jXexXcpB3FFpTsAHiBd4-1mpVDWb13GFHN98lLgAdIP1F78OYrqEy7Ih9wjyweImQnUhu3m6fKZtGll0_pjkeqRpbIoKGYI5DKkhxOKeQPr4QFOyU4-Y1M7jRUOdmh--7qx7MApqg4EI5Y-uvJO-iHR3LiR2doOT3waoqdsnV5PFRhI8rmFHWjPLnhFScyImJJ64FOOeQIKPs5yg5HpB7"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-stack-lg text-white">
+<span class="bg-secondary-container text-on-secondary-fixed text-xs font-bold px-2 py-1 rounded mb-3 inline-block">ENGINEERING</span>
+<h3 class="font-headline-sm text-headline-sm mb-2">งานก่อสร้างและซ่อมบำรุง</h3>
+<p class="font-body-md text-body-md text-slate-300">บริการรับเหมาก่อสร้างโรงงาน โกดัง และงานวิศวกรรมโครงสร้าง พร้อมทีมวิศวกรควบคุมงานอย่างใกล้ชิด</p>
+</div>
+</div>
+</div>
+<!-- Logistics Service -->
+<div class="lg:col-span-5 flex flex-col gap-gutter h-full">
+<div class="bg-surface-container-lowest rounded border border-surface-variant overflow-hidden h-full flex flex-col group">
+<div class="relative h-[200px] overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A vast, highly organized modern logistics warehouse interior viewed from a high angle. Tall steel shelving units stretch endlessly, filled with neatly stacked pallets. The space is brightly illuminated by cool, crisp fluorescent lighting overhead. A vibrant orange forklift operates efficiently in the main aisle. The aesthetic is extremely clean, geometric, and systematic, representing advanced B2B supply chain operations." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjTr8oKj3mG03iZvm3akzPIqaXkdTACPHcoDVFqhKtZ31_L0l6pOvvyxJW_EBnvKNJ2OMBfoL4ZHNyy8MkneRtgSAOQ_OTcC-Z3uhHXI9WH8IlJQK2HqFBLrlD7kUy-waWjeE7cygW5w8XV_Y61ZPhYpOzCtSBPIrSMmnfC48Xmj-sByz302aZb9e26Ur0tD76V-ebB7qWk_Co8zD1l2ax9c5mFf1gjiLaG_HhwarZ77o8SImKFwsOFcjmGhXcEFNv1jJ-SNMsrg5s"/>
+</div>
+<div class="p-stack-md flex-grow flex flex-col justify-center">
+<span class="text-secondary-container text-xs font-bold mb-2">Interior renovation and decoration work</span>
+<h3 class="font-headline-sm text-headline-sm text-on-background mb-2">งานต่อเติมและตกแต่งภายใน</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">บริการตกแต่งและต่อเติมภายในอาคาร โกดังอุตสาหกรรม</p>
+<a class="mt-4 text-primary-container font-label-sm text-label-sm font-bold flex items-center gap-1 hover:underline" href="#">
+                                   </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Clients Section -->
+<section class="py-stack-lg bg-white border-t border-surface-variant">
+<div class="max-w-container-max mx-auto px-margin text-center">
+<h3 class="font-label-sm text-label-sm text-outline tracking-wider uppercase mb-stack-md">บริษัทชั้นนำที่ไว้วางใจเรา</h3>
+<div class="flex flex-wrap justify-center items-center gap-stack-lg opacity-60 grayscale hover:grayscale-0 transition-all duration-300">
+<!-- Text placeholders for logos since we can't use real logos easily without specific assets -->
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">PTT</div>
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Thai NOK</div>
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Kao</div>
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Thai Namthip</div>
+<div class="font-headline-sm text-headline-sm font-bold text-on-surface-variant">Thai Shimizu</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (Shared Component JSON) -->
+<footer class="bg-[#003366] w-full pt-16 pb-8 border-t border-slate-700">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 max-w-[1440px] mx-auto w-full font-['Manrope'] text-sm leading-relaxed">
+<!-- Brand Column -->
+<div class="col-span-1 md:col-span-2 text-white">
+<span class="text-lg font-bold text-white mb-4 block">V-CON Engineering</span>
+<p class="text-slate-300 mb-6">
+                    สร้างสรรค์งานวิศวกรรม ก่อสร้าง และซ่อมบำรุง ด้วยมาตรฐานที่คุณวางใจ
+                </p>
+<div class="text-slate-300">
+                    © 2024 V-CON Engineering &amp; Construction. สงวนลิขสิทธิ์. เลขประจำตัวผู้เสียภาษี: 0205555038826
+                </div>
+</div>
+<!-- Links Column -->
+<div class="col-span-1">
+<h4 class="text-white font-bold mb-4">ลิงก์ที่เกี่ยวข้อง</h4>
+<ul class="flex flex-col gap-2">
+<li><a class="text-slate-300 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">นโยบายความเป็นส่วนตัว</a></li>
+<li><a class="text-slate-300 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">ข้อกำหนดการใช้งาน</a></li>
+<li><a class="text-slate-300 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">แผนผังเว็บไซต์</a></li>
+</ul>
+</div>
+<!-- Contact (Placeholder for layout balance) -->
+<div class="col-span-1">
+<h4 class="text-white font-bold mb-4">ติดต่อ</h4>
+<ul class="flex flex-col gap-2 text-slate-300">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span>125 ม.8 ถ.บ้านบึง-แกลง ต.หนองอิรุณ อ.บ้านบึง จ.ชลบุรี 20220</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span>033-641678</span>
+</li>
+</ul>
+</div>
+</div>
+</footer>
+</body></html>

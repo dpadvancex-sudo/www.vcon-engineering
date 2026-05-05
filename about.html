@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html lang="th"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>เกี่ยวกับเรา - V-CON Engineering</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "inverse-surface": "#2f3034",
+                        "surface": "#f9f9fe",
+                        "on-background": "#1a1c1f",
+                        "on-tertiary-fixed": "#341100",
+                        "surface-dim": "#dad9de",
+                        "on-secondary-container": "#603100",
+                        "outline-variant": "#c3c6d1",
+                        "secondary-fixed-dim": "#ffb77d",
+                        "error": "#ba1a1a",
+                        "inverse-primary": "#a7c8ff",
+                        "on-surface-variant": "#43474f",
+                        "secondary-fixed": "#ffdcc3",
+                        "on-surface": "#1a1c1f",
+                        "surface-tint": "#3a5f94",
+                        "primary-container": "#003366",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#723610",
+                        "on-primary-container": "#799dd6",
+                        "tertiary-container": "#592300",
+                        "on-primary-fixed-variant": "#1f477b",
+                        "inverse-on-surface": "#f1f0f5",
+                        "primary-fixed-dim": "#a7c8ff",
+                        "surface-container-high": "#e8e8ed",
+                        "on-primary-fixed": "#001b3c",
+                        "surface-bright": "#f9f9fe",
+                        "error-container": "#ffdad6",
+                        "background": "#f9f9fe",
+                        "surface-container": "#eeedf2",
+                        "secondary-container": "#fd8b00",
+                        "on-secondary-fixed": "#2f1500",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary": "#904d00",
+                        "on-secondary-fixed-variant": "#6e3900",
+                        "outline": "#737780",
+                        "tertiary-fixed-dim": "#ffb690",
+                        "surface-container-highest": "#e2e2e7",
+                        "surface-container-low": "#f4f3f8",
+                        "on-tertiary-container": "#d8885c",
+                        "primary-fixed": "#d5e3ff",
+                        "surface-variant": "#e2e2e7",
+                        "primary": "#001e40",
+                        "tertiary": "#381300",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#ffdbca",
+                        "on-primary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-lg": "32px",
+                        "stack-md": "16px",
+                        "stack-xs": "4px",
+                        "gutter": "24px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "margin": "32px",
+                        "stack-sm": "8px",
+                        "stack-xl": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Manrope"],
+                        "body-md": ["Inter"],
+                        "headline-md": ["Manrope"],
+                        "body-lg": ["Inter"],
+                        "headline-sm": ["Manrope"],
+                        "label-sm": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "1.25", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "label-sm": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.02em", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined[data-weight="fill"] {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<header class="fixed w-full top-0 z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-sm font-['Manrope'] antialiased">
+<div class="flex justify-between items-center h-20 px-8 max-w-[1440px] mx-auto w-full">
+<div class="text-xl font-bold tracking-tighter text-[#003366] dark:text-white">
+                V-CON Engineering
+            </div>
+<nav class="hidden md:flex gap-gutter items-center">
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="home.html">หน้าแรก</a>
+<a class="text-[#003366] dark:text-blue-400 border-b-2 border-[#003366] dark:border-blue-400 pb-1 font-bold hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="about.html">เกี่ยวกับเรา</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="services.html">บริการของเรา</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="safety.html">ความปลอดภัย</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="portfolio.html">ผลงาน</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="contact.html">ติดต่อเรา</a>
+</nav>
+<button class="hidden md:flex items-center justify-center bg-secondary-container text-on-secondary-fixed font-label-sm px-6 py-3 rounded hover:bg-opacity-90 transition-all font-bold">
+                ขอใบเสนอราคา
+            </button>
+<button class="md:hidden p-2 text-on-surface">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow pt-24 pb-stack-xl">
+<!-- Hero Section -->
+<section class="max-w-container-max mx-auto px-margin pt-stack-xl pb-stack-lg">
+<div class="flex flex-col md:flex-row gap-gutter items-center">
+<div class="w-full md:w-1/2 flex flex-col gap-stack-md">
+<h1 class="font-headline-lg text-headline-lg text-primary">
+                        เกี่ยวกับเรา
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                        V-CON Engineering &amp; Construction มุ่งมั่นในการเป็นผู้นำด้านวิศวกรรมและการก่อสร้าง ด้วยความเชี่ยวชาญและมาตรฐานระดับสากล
+                    </p>
+</div>
+<div class="w-full md:w-1/2 h-[400px] rounded-xl overflow-hidden border border-outline-variant bg-surface-variant relative">
+<img alt="About Us Hero" class="absolute inset-0 w-full h-full object-cover" data-alt="A striking wide-angle shot of a modern construction site at dawn, capturing the sleek, metallic framework of a developing commercial building. The scene is illuminated by the soft, warm golden light of the early morning sun, contrasting with the cool, blue-collar industrial grit of the heavy machinery below. The overall aesthetic aligns with a corporate modern light-mode design, featuring clean lines, deep blue shadows, and vibrant orange accents from safety equipment. The mood is ambitious and precise, embodying engineering excellence." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_LlSBccgM-CPjWSF98icg6vBHgkU6LzEHl0ob0_xk2WnvhB3-F8bzMKHkVpaDsgKRJBmXDjVDX2XFLuiSl17qY9fFGbQInAjfkBrnBdoSsSaikDYoga0K6gecz662sy-5jYr6_s99r65yla-9pSJx-4mlK_ItyAdMae-Ix-gAvGkpm_tudMIQ92xSPxLke32WKcCxxLdkqBwgxoxLEVSmwcKExy2fXSc7ndtHINep1wEDnr2dB1-q7sifl68_ZzHfILcqPPAF2ZFr"/>
+</div>
+</div>
+</section>
+<!-- History & Mission Grid -->
+<section class="max-w-container-max mx-auto px-margin py-stack-lg">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- History Card -->
+<div class="lg:col-span-7 bg-surface-container-lowest border border-outline-variant rounded-lg p-stack-lg flex flex-col gap-stack-md">
+<div class="flex items-center gap-stack-sm text-primary-container">
+<span class="material-symbols-outlined text-3xl" data-icon="history">history</span>
+<h2 class="font-headline-md text-headline-md">ประวัติความเป็นมา</h2>
+</div>
+<div class="flex-grow">
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+                            บริษัท วี-คอน เอ็นจิเนียริ่ง แอนด์ คอนสตรัคชั่น จำกัด ก่อตั้งขึ้นเมื่อวันที่ 21 ธันวาคม 2555 โดยคุณวสุพล วิถีธรรม ด้วยวิสัยทัศน์ที่มุ่งหวังจะยกระดับมาตรฐานงานวิศวกรรมก่อสร้างในประเทศไทย
+                        </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                            จากจุดเริ่มต้นเล็กๆ เราได้เติบโตและพัฒนาอย่างต่อเนื่อง จนกลายเป็นองค์กรที่ได้รับความไว้วางใจจากลูกค้าทั้งภาครัฐและเอกชน ในการดำเนินโครงการขนาดใหญ่ที่มีความซับซ้อน
+                        </p>
+</div>
+<div class="mt-auto pt-stack-md border-t border-surface-variant flex gap-stack-md items-center">
+<div class="bg-primary-container text-on-primary w-12 h-12 rounded flex items-center justify-center font-headline-sm text-headline-sm">
+                            10+
+                        </div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ปีแห่งประสบการณ์และความสำเร็จ</span>
+</div>
+</div>
+<!-- Mission Card -->
+<div class="lg:col-span-5 bg-primary text-on-primary rounded-lg p-stack-lg flex flex-col gap-stack-md relative overflow-hidden">
+<div class="absolute top-0 right-0 p-8 opacity-10">
+<span class="material-symbols-outlined text-[120px]" data-icon="flag">flag</span>
+</div>
+<div class="relative z-10 flex flex-col gap-stack-md h-full">
+<div class="flex items-center gap-stack-sm text-secondary-container">
+<span class="material-symbols-outlined text-3xl" data-icon="track_changes" data-weight="fill">track_changes</span>
+<h2 class="font-headline-md text-headline-md">พันธกิจของเรา</h2>
+</div>
+<p class="font-body-lg text-body-lg text-primary-fixed leading-relaxed flex-grow">
+                            เรามุ่งมั่นพัฒนาศักยภาพอย่างไม่หยุดยั้ง เพื่อส่งมอบงานที่มีคุณภาพสูงสุด ตรงตามมาตรฐานวิศวกรรม และสร้างความพึงพอใจสูงสุดให้กับลูกค้าในทุกโครงการ
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Values -->
+<section class="max-w-container-max mx-auto px-margin py-stack-lg bg-surface-container-low my-stack-lg rounded-xl border border-surface-variant">
+<div class="text-center mb-stack-lg flex flex-col gap-stack-sm items-center">
+<span class="text-secondary-container font-label-sm text-label-sm uppercase tracking-widest">Core Values</span>
+<h2 class="font-headline-md text-headline-md text-primary">คำมั่นสัญญาและค่านิยม</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<div class="bg-surface-container-lowest p-stack-md rounded-lg border border-outline-variant flex flex-col items-center text-center gap-stack-sm hover:-translate-y-1 transition-transform duration-300">
+<div class="w-16 h-16 bg-primary-fixed text-primary-fixed-dim rounded-full flex items-center justify-center mb-stack-xs">
+<span class="material-symbols-outlined text-3xl text-primary" data-icon="handshake">handshake</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">ซื่อสัตย์</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">ดำเนินธุรกิจด้วยความโปร่งใสและตรวจสอบได้</p>
+</div>
+<div class="bg-surface-container-lowest p-stack-md rounded-lg border border-outline-variant flex flex-col items-center text-center gap-stack-sm hover:-translate-y-1 transition-transform duration-300">
+<div class="w-16 h-16 bg-primary-fixed text-primary-fixed-dim rounded-full flex items-center justify-center mb-stack-xs">
+<span class="material-symbols-outlined text-3xl text-primary" data-icon="favorite">favorite</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">จริงใจ</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">ใส่ใจในทุกรายละเอียดและข้อกำหนดของลูกค้า</p>
+</div>
+<div class="bg-surface-container-lowest p-stack-md rounded-lg border border-outline-variant flex flex-col items-center text-center gap-stack-sm hover:-translate-y-1 transition-transform duration-300">
+<div class="w-16 h-16 bg-primary-fixed text-primary-fixed-dim rounded-full flex items-center justify-center mb-stack-xs">
+<span class="material-symbols-outlined text-3xl text-primary" data-icon="verified_user">verified_user</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">รับผิดชอบ</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">ยึดมั่นในมาตรฐานความปลอดภัยและคุณภาพงาน</p>
+</div>
+<div class="bg-surface-container-lowest p-stack-md rounded-lg border border-outline-variant flex flex-col items-center text-center gap-stack-sm hover:-translate-y-1 transition-transform duration-300">
+<div class="w-16 h-16 bg-primary-fixed text-primary-fixed-dim rounded-full flex items-center justify-center mb-stack-xs">
+<span class="material-symbols-outlined text-3xl text-primary" data-icon="schedule">schedule</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">ตรงต่อเวลา</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">ส่งมอบงานตามกำหนดเวลาที่ตกลงไว้อย่างเคร่งครัด</p>
+</div>
+</div>
+</section>
+<!-- Leadership -->
+<section class="max-w-container-max mx-auto px-margin py-stack-lg">
+<div class="flex flex-col md:flex-row gap-gutter items-center">
+<div class="w-full md:w-1/3">
+<div class="aspect-[3/4] rounded-lg overflow-hidden border border-outline-variant bg-surface-variant relative">
+<img alt="Khun Vasupol Vitheetham" class="absolute inset-0 w-full h-full object-cover" data-alt="A professional portrait of an Asian male executive in his late 40s, representing Khun Vasupol Vitheetham, founder of an engineering firm. He is wearing a crisp white shirt and a tailored dark blue suit, projecting confidence and approachability. The background is a slightly blurred, modern corporate office environment with subtle elements of architectural blueprints visible. The lighting is soft, natural, and flattering, typical of high-end corporate photography, adhering to a clean, light-mode design aesthetic with deep blue and white tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC10h728nfs_VJJhHlAfTrE0Zd0wY9B0v3yD7YNssleeRskuW1E9Wt9HA3AwMtcNNUUUAAJKY0v8GIKpDUeXByoaZpI5Rdsl8inFgBhalDLLcOnTNL4A3pGRaokQJQIp3Pc8_ZGmws1jngWJrIp3-8OiAjwG8BCfQoUZs7em8yR6TEsWS5mgVlz0-pyEDgXDiUEN7BF4UlXDbOwqJEnZC-Ay5tbpzR2jc9pyipd5xt-cWUaqCYfW1fdkkPDdtR6lkfcjl9hgiavEJdx"/>
+</div>
+</div>
+<div class="w-full md:w-2/3 flex flex-col gap-stack-md">
+<span class="text-secondary-container font-label-sm text-label-sm uppercase tracking-widest">ผู้ก่อตั้งและกรรมการผู้จัดการ</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">คุณวสุพล วิถีธรรม</h2>
+<div class="w-16 h-1 bg-secondary-container rounded"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-stack-sm">
+                        ด้วยประสบการณ์กว่า 20 ปีในวงการวิศวกรรมก่อสร้าง คุณวสุพลได้นำพาทีมงาน V-CON Engineering ก้าวผ่านความท้าทายในโครงการต่างๆ มากมาย โดยยึดหลักการทำงานที่เน้นความปลอดภัย คุณภาพ และความซื่อสัตย์ต่อวิชาชีพ
+                    </p>
+<div class="flex gap-stack-md mt-stack-md">
+<div class="flex flex-col gap-unit">
+<span class="font-headline-md text-headline-md text-primary-container">20+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ปีแห่งประสบการณ์</span>
+</div>
+<div class="w-px bg-outline-variant h-full"></div>
+<div class="flex flex-col gap-unit">
+<span class="font-headline-md text-headline-md text-primary-container">100+</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">โครงการที่สำเร็จ</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full pt-16 pb-8 bg-[#003366] dark:bg-slate-950 text-white font-['Manrope'] text-sm leading-relaxed border-t border-slate-700 dark:border-slate-800">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 max-w-[1440px] mx-auto w-full">
+<div class="col-span-1 md:col-span-2 flex flex-col gap-4">
+<span class="text-lg font-bold text-white mb-4 block">V-CON Engineering</span>
+<p class="text-slate-300 dark:text-slate-500 max-w-sm">
+                    ผู้นำด้านวิศวกรรมและการก่อสร้าง มุ่งมั่นส่งมอบงานคุณภาพด้วยความซื่อสัตย์และความรับผิดชอบ
+                </p>
+<div class="mt-auto pt-4">
+<p class="text-slate-300 dark:text-slate-500 text-xs">
+                        © 2024 V-CON Engineering &amp; Construction. สงวนลิขสิทธิ์. เลขประจำตัวผู้เสียภาษี: 0123456789012
+                    </p>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-bold text-white mb-2">ข้อมูลบริษัท</span>
+<a class="text-slate-300 dark:text-slate-500 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">นโยบายความเป็นส่วนตัว</a>
+<a class="text-slate-300 dark:text-slate-500 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">ข้อกำหนดการใช้งาน</a>
+<a class="text-slate-300 dark:text-slate-500 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">แผนผังเว็บไซต์</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-bold text-white mb-2">ติดต่อเรา</span>
+<p class="text-slate-300 dark:text-slate-500 flex items-start gap-2">
+<span class="material-symbols-outlined text-sm mt-0.5" data-icon="location_on">location_on</span>
+                    123/45 ถนนวิศวกรรม แขวงก่อสร้าง<br/>เขตอุตสาหกรรม กรุงเทพฯ 10000
+                </p>
+<p class="text-slate-300 dark:text-slate-500 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm" data-icon="call">call</span>
+                    02-XXX-XXXX
+                </p>
+</div>
+</div>
+</footer>
+</body></html>

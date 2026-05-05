@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="th"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>V-CON Engineering - ความปลอดภัย</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "inverse-surface": "#2f3034",
+                        "surface": "#f9f9fe",
+                        "on-background": "#1a1c1f",
+                        "on-tertiary-fixed": "#341100",
+                        "surface-dim": "#dad9de",
+                        "on-secondary-container": "#603100",
+                        "outline-variant": "#c3c6d1",
+                        "secondary-fixed-dim": "#ffb77d",
+                        "error": "#ba1a1a",
+                        "inverse-primary": "#a7c8ff",
+                        "on-surface-variant": "#43474f",
+                        "secondary-fixed": "#ffdcc3",
+                        "on-surface": "#1a1c1f",
+                        "surface-tint": "#3a5f94",
+                        "primary-container": "#003366",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#723610",
+                        "on-primary-container": "#799dd6",
+                        "tertiary-container": "#592300",
+                        "on-primary-fixed-variant": "#1f477b",
+                        "inverse-on-surface": "#f1f0f5",
+                        "primary-fixed-dim": "#a7c8ff",
+                        "surface-container-high": "#e8e8ed",
+                        "on-primary-fixed": "#001b3c",
+                        "surface-bright": "#f9f9fe",
+                        "error-container": "#ffdad6",
+                        "background": "#f9f9fe",
+                        "surface-container": "#eeedf2",
+                        "secondary-container": "#fd8b00",
+                        "on-secondary-fixed": "#2f1500",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary": "#904d00",
+                        "on-secondary-fixed-variant": "#6e3900",
+                        "outline": "#737780",
+                        "tertiary-fixed-dim": "#ffb690",
+                        "surface-container-highest": "#e2e2e7",
+                        "surface-container-low": "#f4f3f8",
+                        "on-tertiary-container": "#d8885c",
+                        "primary-fixed": "#d5e3ff",
+                        "surface-variant": "#e2e2e7",
+                        "primary": "#001e40",
+                        "tertiary": "#381300",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#ffdbca",
+                        "on-primary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-lg": "32px",
+                        "stack-md": "16px",
+                        "stack-xs": "4px",
+                        "gutter": "24px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "margin": "32px",
+                        "stack-sm": "8px",
+                        "stack-xl": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Manrope", "sans-serif"],
+                        "body-md": ["Inter", "sans-serif"],
+                        "headline-md": ["Manrope", "sans-serif"],
+                        "body-lg": ["Inter", "sans-serif"],
+                        "headline-sm": ["Manrope", "sans-serif"],
+                        "label-sm": ["Inter", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "1.25", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "label-sm": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.02em", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-surface text-on-surface font-body-md antialiased">
+<!-- TopNavBar -->
+<nav class="bg-white/95 backdrop-blur-md sticky w-full top-0 z-50 border-b border-outline-variant shadow-sm transition-opacity">
+<div class="flex justify-between items-center h-20 px-8 max-w-[1440px] mx-auto w-full">
+<div class="flex items-center gap-4">
+<span class="font-headline-lg text-primary-container text-[24px] tracking-tighter">V-CON Engineering</span>
+</div>
+<div class="hidden md:flex items-center gap-gutter">
+<a class="text-on-surface-variant font-label-sm font-medium hover:text-primary-container transition-colors duration-200" href="home.html">หน้าแรก</a>
+<a class="text-on-surface-variant font-label-sm font-medium hover:text-primary-container transition-colors duration-200" href="about.html">เกี่ยวกับเรา</a>
+<a class="text-on-surface-variant font-label-sm font-medium hover:text-primary-container transition-colors duration-200" href="services.html">บริการของเรา</a>
+<a class="text-primary-container font-label-sm font-bold border-b-2 border-primary-container pb-1" href="safety.html">ความปลอดภัย</a>
+<a class="text-on-surface-variant font-label-sm font-medium hover:text-primary-container transition-colors duration-200" href="portfolio.html">ผลงาน</a>
+<a class="text-on-surface-variant font-label-sm font-medium hover:text-primary-container transition-colors duration-200" href="contact.html">ติดต่อเรา</a>
+</div>
+<div class="hidden md:flex items-center">
+<button class="hidden md:flex items-center justify-center bg-secondary-container text-on-secondary-fixed font-label-sm px-6 py-3 rounded hover:bg-opacity-90 transition-all font-bold">
+                ขอใบเสนอราคา
+            </button>
+</div>
+<!-- Mobile Menu Toggle (Visual Only) -->
+<button class="md:hidden text-primary-container p-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">menu</span>
+</button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative bg-primary-container text-on-primary py-stack-xl overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Construction Safety" class="w-full h-full object-cover opacity-20 mix-blend-overlay" data-alt="A striking wide-angle photograph of a massive construction site bathed in golden hour sunlight. Several construction workers in bright high-visibility orange vests and pristine white hard hats are seen observing blueprints atop steel girders. The lighting is dramatic, emphasizing the structural integrity of the steel beams against a clear blue sky. The overarching mood is one of rigorous safety, professional engineering precision, and industrial momentum, perfectly aligned with a corporate blue-collar sophistication aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4ieqobgIKT98P3AT0iFNQh1wo5ZQsTO0xCzzME6GOCF-kLnCCaZtSoHTw9XrhDVdaBXlOlamMAGyiHXHlDPHJVvNSrASoiSfZYbYuf_8FegrogFRrDYSx7To1FVoxhGWYptIqYlktX-VaSDFkULnk1NEdLELh1an61xjAZHmDKkEqJkgvbmHa8enLAe6o2y9o-4-J8b5bu0CBoa7br3gWMJ_UGXeNtNiiOrcb_tdEArT-dUCd2C9ikKlxx9Vb0GF7iRi3s6sYtY-8"/>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin grid grid-cols-1 lg:grid-cols-2 gap-stack-lg items-center">
+<div class="flex flex-col gap-stack-md">
+<div class="inline-flex items-center gap-2 bg-secondary-container/20 text-secondary-fixed border border-secondary-container/30 rounded-full px-4 py-1.5 self-start backdrop-blur-sm">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+<span class="font-label-sm font-bold uppercase tracking-wider">Safety First, Always</span>
+</div>
+<h1 class="font-headline-lg text-on-primary">ความปลอดภัยคือหัวใจหลักของเรา</h1>
+<p class="font-body-lg text-inverse-primary max-w-xl">
+                    ที่ V-CON Engineering เราเชื่อว่าโครงสร้างที่แข็งแกร่งเริ่มต้นจากรากฐานของความปลอดภัยที่ไร้ข้อกังขา มาตรฐานของเราครอบคลุมทุกมิติของการก่อสร้าง เพื่อปกป้องชีวิตและทรัพย์สินในทุกโครงการ
+                </p>
+</div>
+</div>
+</header>
+<!-- Main Content -->
+<main class="max-w-container-max mx-auto px-margin py-stack-xl flex flex-col gap-stack-xl">
+<!-- Professional Safety Officers Section -->
+<section class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-5 flex flex-col gap-stack-md">
+<h2 class="font-headline-md text-primary-container">เจ้าหน้าที่ความปลอดภัยวิชาชีพ (จป.)</h2>
+<p class="font-body-md text-on-surface-variant">
+                    ทีมงานของเราประกอบด้วยเจ้าหน้าที่ความปลอดภัยระดับวิชาชีพที่ได้รับการรับรองจากหน่วยงานระดับชาติ พวกเขาคือผู้ดูแลรักษากฎระเบียบและแนวทางปฏิบัติที่เข้มงวดที่สุดในทุกไซต์งาน เพื่อให้แน่ใจว่าทุกคนจะกลับบ้านอย่างปลอดภัยในทุกๆ วัน
+                </p>
+<ul class="flex flex-col gap-3 mt-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-on-surface">ตรวจสอบและประเมินความเสี่ยงอย่างต่อเนื่อง</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-on-surface">จัดอบรมและสร้างจิตสำนึกด้านความปลอดภัยหน้างาน</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-container" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="font-body-md text-on-surface">ตอบสนองและจัดการเหตุฉุกเฉินอย่างมืออาชีพ</span>
+</li>
+</ul>
+</div>
+<div class="md:col-span-7 relative">
+<div class="absolute inset-0 bg-primary-container/5 rounded translate-x-4 translate-y-4 -z-10"></div>
+<img alt="Safety Officer" class="w-full h-auto rounded border border-outline-variant object-cover shadow-sm" data-alt="A close-up portrait of a professional construction safety officer (Jor Por) standing confidently on a bustling construction site. He is wearing a crisp yellow hard hat, safety goggles, and a clean reflective vest over a professional uniform. He holds a digital tablet displaying safety checklists. The lighting is bright and clear, highlighting his serious, focused expression and the intricate scaffolding in the softly blurred background. The overall tone is authoritative, clean, and modern industrial." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdJtQNKfV9Lmmt7birkWnkTPAEa6sbwGmITNx3s6IhxhPxZZMAda_QVL2kFJ82nRLTnADM-xjLJG1clRJClov5DjI7OnKyLPp9OJEkBOvLC5VL20dOcKD-DlgaBcsjSbxKO3IJK7Bnl6MrdnWwM7zthA1nF0k7HmamzP-i0yclIaR5Y5DnJjnOHw-b6I78YYDyfo5aQMPQAfhakClc6xgAx5yFYejYtVOgZHjdpLwzBzMwgglK_Dht17kEqL7bVfcTW8GxgjixHkyF"/>
+</div>
+</section>
+<!-- Certifications Bento Grid -->
+<section class="flex flex-col gap-stack-lg">
+<div class="flex flex-col gap-stack-xs text-center max-w-2xl mx-auto">
+<h2 class="font-headline-md text-primary-container">ใบรับรองและมาตรฐานความปลอดภัย</h2>
+<p class="font-body-md text-on-surface-variant">ทีมงาน V-CON ผ่านการฝึกอบรมและได้รับใบอนุญาตปฏิบัติงานเฉพาะทางตามมาตรฐานสากล</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Cert 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md flex flex-col gap-stack-sm hover:shadow-md transition-shadow group">
+<div class="w-12 h-12 rounded bg-primary-fixed flex items-center justify-center text-primary-container mb-2 group-hover:bg-secondary-fixed group-hover:text-secondary-container transition-colors">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">height</span>
+</div>
+<h3 class="font-headline-sm text-on-surface">การทำงานบนที่สูง</h3>
+<p class="font-body-md text-on-surface-variant text-sm">การอบรมและรับรองมาตรฐานการใช้อุปกรณ์กันตกและนั่งร้าน</p>
+</div>
+<!-- Cert 2 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md flex flex-col gap-stack-sm hover:shadow-md transition-shadow group">
+<div class="w-12 h-12 rounded bg-primary-fixed flex items-center justify-center text-primary-container mb-2 group-hover:bg-secondary-fixed group-hover:text-secondary-container transition-colors">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
+</div>
+<h3 class="font-headline-sm text-on-surface">ผู้บังคับปั้นจั่น (Crane)</h3>
+<p class="font-body-md text-on-surface-variant text-sm">ใบอนุญาตควบคุมปั้นจั่นและเครื่องจักรหนักอย่างปลอดภัย</p>
+</div>
+<!-- Cert 3 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md flex flex-col gap-stack-sm hover:shadow-md transition-shadow group">
+<div class="w-12 h-12 rounded bg-primary-fixed flex items-center justify-center text-primary-container mb-2 group-hover:bg-secondary-fixed group-hover:text-secondary-container transition-colors">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">disabled_visible</span>
+</div>
+<h3 class="font-headline-sm text-on-surface">พื้นที่อับอากาศ (Confined Spaces)</h3>
+<p class="font-body-md text-on-surface-variant text-sm">มาตรฐานการปฏิบัติงานและช่วยเหลือผู้ประสบภัยในพื้นที่จำกัด</p>
+</div>
+<!-- Cert 4 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md flex flex-col gap-stack-sm hover:shadow-md transition-shadow group">
+<div class="w-12 h-12 rounded bg-primary-fixed flex items-center justify-center text-primary-container mb-2 group-hover:bg-secondary-fixed group-hover:text-secondary-container transition-colors">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">electrical_services</span>
+</div>
+<h3 class="font-headline-sm text-on-surface">ช่างไฟฟ้า ระดับ 1</h3>
+<p class="font-body-md text-on-surface-variant text-sm">การรับรองความรู้ความสามารถทางช่างไฟฟ้าภายในอาคาร</p>
+</div>
+<!-- Cert 5 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md flex flex-col gap-stack-sm hover:shadow-md transition-shadow group md:col-span-2 lg:col-span-1">
+<div class="w-12 h-12 rounded bg-primary-fixed flex items-center justify-center text-primary-container mb-2 group-hover:bg-secondary-fixed group-hover:text-secondary-container transition-colors">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">fire_extinguisher</span>
+</div>
+<h3 class="font-headline-sm text-on-surface">การดับเพลิงเบื้องต้น</h3>
+<p class="font-body-md text-on-surface-variant text-sm">ความพร้อมในการระงับอัคคีภัยและการอพยพหนีไฟ</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#003366] w-full pt-16 pb-8 border-t border-slate-700">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 max-w-[1440px] mx-auto w-full">
+<div class="col-span-1 md:col-span-2">
+<span class="font-['Manrope'] text-lg font-bold text-white mb-4 block">V-CON Engineering</span>
+<p class="font-['Manrope'] text-sm leading-relaxed text-slate-300 max-w-sm">
+                    ผู้เชี่ยวชาญด้านวิศวกรรมและการก่อสร้าง มุ่งมั่นส่งมอบผลงานคุณภาพสูงด้วยมาตรฐานความปลอดภัยระดับสากล
+                </p>
+</div>
+<div class="col-span-1">
+<span class="font-['Manrope'] text-sm font-bold text-white mb-4 block uppercase tracking-wider">Legal</span>
+<ul class="flex flex-col gap-2">
+<li><a class="font-['Manrope'] text-sm leading-relaxed text-slate-300 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">นโยบายความเป็นส่วนตัว</a></li>
+<li><a class="font-['Manrope'] text-sm leading-relaxed text-slate-300 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">ข้อกำหนดการใช้งาน</a></li>
+<li><a class="font-['Manrope'] text-sm leading-relaxed text-slate-300 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">แผนผังเว็บไซต์</a></li>
+</ul>
+</div>
+<div class="col-span-1 md:col-span-4 mt-8 pt-8 border-t border-slate-700/50 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-['Manrope'] text-sm leading-relaxed text-slate-400">
+                    © 2024 V-CON Engineering &amp; Construction. สงวนลิขสิทธิ์. เลขประจำตัวผู้เสียภาษี: 0205555038826
+                </p>
+</div>
+</div>
+</footer>
+</body></html>

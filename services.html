@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="th"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>บริการของเรา - V-CON Engineering</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "inverse-surface": "#2f3034",
+                        "surface": "#f9f9fe",
+                        "on-background": "#1a1c1f",
+                        "on-tertiary-fixed": "#341100",
+                        "surface-dim": "#dad9de",
+                        "on-secondary-container": "#603100",
+                        "outline-variant": "#c3c6d1",
+                        "secondary-fixed-dim": "#ffb77d",
+                        "error": "#ba1a1a",
+                        "inverse-primary": "#a7c8ff",
+                        "on-surface-variant": "#43474f",
+                        "secondary-fixed": "#ffdcc3",
+                        "on-surface": "#1a1c1f",
+                        "surface-tint": "#3a5f94",
+                        "primary-container": "#003366",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#723610",
+                        "on-primary-container": "#799dd6",
+                        "tertiary-container": "#592300",
+                        "on-primary-fixed-variant": "#1f477b",
+                        "inverse-on-surface": "#f1f0f5",
+                        "primary-fixed-dim": "#a7c8ff",
+                        "surface-container-high": "#e8e8ed",
+                        "on-primary-fixed": "#001b3c",
+                        "surface-bright": "#f9f9fe",
+                        "error-container": "#ffdad6",
+                        "background": "#f9f9fe",
+                        "surface-container": "#eeedf2",
+                        "secondary-container": "#fd8b00",
+                        "on-secondary-fixed": "#2f1500",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary": "#904d00",
+                        "on-secondary-fixed-variant": "#6e3900",
+                        "outline": "#737780",
+                        "tertiary-fixed-dim": "#ffb690",
+                        "surface-container-highest": "#e2e2e7",
+                        "surface-container-low": "#f4f3f8",
+                        "on-tertiary-container": "#d8885c",
+                        "primary-fixed": "#d5e3ff",
+                        "surface-variant": "#e2e2e7",
+                        "primary": "#001e40",
+                        "tertiary": "#381300",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#ffdbca",
+                        "on-primary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-lg": "32px",
+                        "stack-md": "16px",
+                        "stack-xs": "4px",
+                        "gutter": "24px",
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "margin": "32px",
+                        "stack-sm": "8px",
+                        "stack-xl": "64px"
+                    },
+                    "fontFamily": {
+                        "headline-lg": ["Manrope"],
+                        "body-md": ["Inter"],
+                        "headline-md": ["Manrope"],
+                        "body-lg": ["Inter"],
+                        "headline-sm": ["Manrope"],
+                        "label-sm": ["Inter"]
+                    },
+                    "fontSize": {
+                        "headline-lg": ["48px", { "lineHeight": "1.2", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "1.25", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-sm": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "label-sm": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.02em", "fontWeight": "500" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="bg-white/95 dark:bg-slate-900/95 backdrop-blur-md docked full-width top-0 z-50 border-b border-slate-200 dark:border-slate-800 shadow-sm font-['Manrope'] antialiased sticky">
+<div class="flex justify-between items-center h-20 px-8 max-w-[1440px] mx-auto w-full">
+<div class="text-xl font-bold tracking-tighter text-[#003366] dark:text-white">
+                V-CON Engineering
+            </div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="home.html">หน้าแรก</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="about.html">เกี่ยวกับเรา</a>
+<a class="text-[#003366] dark:text-blue-400 border-b-2 border-[#003366] dark:border-blue-400 pb-1 font-bold hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="services.html">บริการของเรา</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="safety.html">ความปลอดภัย</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="portfolio.html">ผลงาน</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#003366] dark:hover:text-white transition-colors duration-200" href="contact.html">ติดต่อเรา</a>
+</div>
+<button class="hidden md:flex items-center justify-center bg-secondary-container text-on-secondary-fixed font-label-sm px-6 py-3 rounded hover:bg-opacity-90 transition-all font-bold">
+                ขอใบเสนอราคา
+            </button>
+</div>
+</nav>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative bg-primary-container text-on-primary py-stack-xl px-margin border-b border-outline-variant">
+<div class="max-w-container-max mx-auto">
+<h1 class="font-headline-lg text-headline-lg mb-stack-sm">บริการของเรา</h1>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-2xl">
+                    บริการวิศวกรรมก่อสร้างและโลจิสติกส์ครบวงจร ด้วยมาตรฐานความปลอดภัยสูงสุด ตอบโจทย์ทุกความต้องการของภาคอุตสาหกรรม
+                </p>
+</div>
+</section>
+<!-- Construction & Maintenance -->
+<section class="py-stack-xl px-margin bg-surface">
+<div class="max-w-container-max mx-auto">
+<div class="flex items-center gap-4 mb-stack-lg border-b border-outline-variant pb-4">
+<span class="material-symbols-outlined text-secondary-container" data-icon="architecture" style="font-variation-settings: 'FILL' 1;">architecture</span>
+<h2 class="font-headline-md text-headline-md text-primary">บริการรับเหมาก่อสร้าง ต่อเติมภายใน และซ่อมบำรุง</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md hover:shadow-md transition-shadow group">
+<div class="h-48 bg-surface-variant rounded mb-stack-md overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A massive, modern industrial warehouse construction site with high steel framing against a clear blue sky. Bright, professional daytime lighting highlighting the robust structural engineering. Corporate blue and steel grey tones dominate, creating a highly technical and precise aesthetic. The mood is industrial momentum and scale." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1pX1M4jcOkrd2_Gm3sQiS6lqb8LGELmpVPZ8v8vUzxAfwLtse-5TKfs5ERXogp1KJYfOfACpaxbV2cUNs_07MJkZDIrLY00LZDguMpAV6u-5z481qbKslciWfIdeHtTU4nG6lEUzsDqdrbt8pPPlq8rk_gXGgSc5pnxO0_V6BDmo-hu1AGfDHqA09B2KzqeoZhK4ozKRIOb-K7fhrhG3WSlW2QPBMKZBT53EksGP0oQs6vti0l6Up1_JAfPsC5QN-t95gPeIVIW00"/>
+</div>
+<h3 class="font-headline-sm text-headline-sm mb-stack-sm">ก่อสร้างอาคารและคลังสินค้า</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                            บริการออกแบบและก่อสร้างโรงงาน คลังสินค้า ด้วยโครงสร้างเหล็กและคอนกรีตมาตรฐานสากล
+                        </p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md hover:shadow-md transition-shadow group">
+<div class="h-48 bg-surface-variant rounded mb-stack-md overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close up of a freshly laid, high-gloss industrial epoxy floor reflecting bright overhead factory lights. The surface is pristine and smooth, emphasizing precision and durability. Cool corporate blue and neutral grey palette. The mood is clean, highly professional, and ready for heavy machinery." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiA6prRm2rZVqqfoIfkFy1p_fd-CVhpe8FXR8KBNyau8uZnz1GJxM_ykPbspeE2cVe0iDOHTYb5jsZhljrM-S5tFVqW-nKab2XXDbNGcLib9cnhUHQJZmu6SLCtl01Lg4UG5JL62iiMTT9qZ2FtAw3gNk4uFKWSV94qpa5Cfrt5MnQis_b3PrB7S34zElg8ZSFO4HU1jYTM5P0m6rZ_M9t8NVf_1uKoc5bIRzI6jaf1jz5p_LqeZRlCk1r--0VossURwAhQxG8C0Dg"/>
+</div>
+<h3 class="font-headline-sm text-headline-sm mb-stack-sm">งานปรับปรุงและต่อเติมภายใน</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                            ซ่อมแซมโครงสร้าง ปรับปรุงพื้นที่โรงงาน และเคลือบพื้นอุตสาหกรรม (Epoxy/PU) ทนทานต่อสารเคมี
+                        </p>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md hover:shadow-md transition-shadow group">
+<div class="h-48 bg-surface-variant rounded mb-stack-md overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Complex network of shiny industrial piping installed inside a modern manufacturing facility. Precision engineering is evident in the neat arrangement and robust valves. Crisp, highly defined lighting emphasizing the metallic textures. Corporate blue and silver aesthetic. The mood is technical precision and operational readiness." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5i13qIR6sNTH39DNJgbDZd9vV7ISj0UJrBVfE2U5DehbpEybwl5RaWu9uqWlSNmc5MXMREUYuluOPzHJnjiBjvgBO8H-lqSLF9bd5Pz611XqzD9-jygN_1rc3l7X9GrL-_SIviG9Xwr8e0awYbnyEa_QtZh9RLYmsPbuuy_Vc_nomWOrpO889YZ-u6pqalcmiITLd8OmNYzCNy96iazlbjTGnHuHvHXE_bYB6zmck38527gFM9LX7iWeXWtbpKmZuoijwgNEP0SfC"/>
+</div>
+<h3 class="font-headline-sm text-headline-sm mb-stack-sm">งานวางท่ออุตสาหกรรม</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                            ติดตั้งระบบท่อสำหรับโรงงานอุตสาหกรรม ท่อน้ำ ท่อลม ท่อแก๊ส พร้อมตรวจสอบรอยเชื่อมด้วยเทคนิค NDT
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Logistics & Heavy Machinery -->
+<section class="py-stack-xl px-margin bg-surface-container-low border-t border-outline-variant">
+<div class="max-w-container-max mx-auto">
+<div class="flex items-center gap-4 mb-stack-lg border-b border-outline-variant pb-4">
+<span class="material-symbols-outlined text-secondary-container" data-icon="local_shipping" style="font-variation-settings: 'FILL' 1;">local_shipping</span>
+<h2 class="font-headline-md text-headline-md text-primary">บริการขนส่งและเครื่องจักรกลหนัก</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- List Item 1 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md flex items-center gap-stack-md hover:border-primary-container transition-colors">
+<div class="w-32 h-32 bg-surface-variant rounded flex-shrink-0 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A heavy-duty 5-ton crane truck lifting building materials on a well-organized construction site. High-contrast, sharp lighting highlighting the mechanical power and scale. Corporate blue and striking orange accents define the equipment. The mood is industrial strength and efficient logistics." src="port/Project21.jpg"/>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm mb-stack-xs text-primary">รถเฮี๊ยบ 5 ตัน</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                บริการให้เช่ารถบรรทุกติดเครนพร้อมคนขับที่ผ่านการอบรม สำหรับยกย้ายเครื่องจักรและวัสดุก่อสร้าง
+                            </p>
+</div>
+</div>
+<!-- List Item 2 -->
+<div class="bg-surface-container-lowest border border-outline-variant rounded p-stack-md flex items-center gap-stack-md hover:border-primary-container transition-colors">
+<div class="w-32 h-32 bg-surface-variant rounded flex-shrink-0 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A rugged yellow backhoe excavator actively digging on a civil engineering site. Clear daylight emphasizing the dust and heavy earthmoving action. The color palette features construction yellow, corporate blue, and earth tones. The mood is dynamic, hardworking, and robust heavy machinery operation." src="port/Project24.jpg"/>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm mb-stack-xs text-primary">รถแบคโฮและรถดั้ม</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                ให้บริการเครื่องจักรสำหรับงานขุดดิน ปรับพื้นที่ และขนย้ายเศษวัสดุ พร้อมทีมงานมืออาชีพ
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-stack-xl px-margin bg-primary-container text-on-primary text-center border-t-4 border-secondary-container">
+<div class="max-w-3xl mx-auto">
+<h2 class="font-headline-md text-headline-md mb-stack-md">พร้อมเริ่มโครงการของคุณหรือยัง?</h2>
+<p class="font-body-lg text-body-lg text-on-primary-container mb-stack-lg">
+                    ติดต่อทีมวิศวกรของเราเพื่อประเมินราคาและวางแผนการดำเนินงานฟรี
+                </p>
+<button class="bg-secondary-container text-on-secondary-fixed font-label-sm text-label-sm px-8 py-4 rounded font-bold hover:bg-secondary-container/90 transition-colors shadow-sm">
+                    ขอใบเสนอราคาด่วน
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#003366] dark:bg-slate-950 w-full pt-16 pb-8 border-t border-slate-700 dark:border-slate-800 font-['Manrope'] text-sm leading-relaxed text-white">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-8 max-w-[1440px] mx-auto w-full">
+<div class="md:col-span-1">
+<span class="text-lg font-bold text-white mb-4 block">V-CON Engineering</span>
+<p class="text-slate-300 dark:text-slate-500 mb-4">บริการวิศวกรรมก่อสร้างและโลจิสติกส์ครบวงจร ด้วยมาตรฐานความปลอดภัยสูงสุด</p>
+</div>
+<div class="md:col-span-3 flex flex-col md:flex-row justify-between items-start md:items-end gap-6 border-t border-slate-700 pt-8 mt-8 md:mt-0 md:border-t-0 md:pt-0">
+<p class="text-slate-300 dark:text-slate-500">
+                    © 2024 V-CON Engineering &amp; Construction. สงวนลิขสิทธิ์. เลขประจำตัวผู้เสียภาษี: 0205555038826
+                </p>
+<div class="flex gap-6">
+<a class="text-slate-300 dark:text-slate-500 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">นโยบายความเป็นส่วนตัว</a>
+<a class="text-slate-300 dark:text-slate-500 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">ข้อกำหนดการใช้งาน</a>
+<a class="text-slate-300 dark:text-slate-500 hover:text-orange-400 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-orange-500" href="#">แผนผังเว็บไซต์</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
